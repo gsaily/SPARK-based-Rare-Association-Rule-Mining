@@ -64,10 +64,10 @@ object Algorithms {
    * rules and avoid the so called "threshold" problem. This makes it
    * a lot easier to directly use the mining results.
    */
-  val TOPK:String   = "TOPK"
-  val TOPKNR:String = "TOPKNR"
+  val sram:String   = "sram"
+  
     
-  private val algorithms = List(TOPK,TOPKNR)
+  private val algorithms = List(sram)
   def isAlgorithm(algorithm:String):Boolean = algorithms.contains(algorithm)
   
 }
